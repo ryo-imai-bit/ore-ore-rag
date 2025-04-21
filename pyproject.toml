@@ -1,0 +1,11 @@
+[project]
+name = "oreore-rag"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "duckdb>=1.2.2",
+    "sentencepiece>=0.2.0",
+    "torch>=2.6.0",
+    "transformers>=4.51.3",
+]
